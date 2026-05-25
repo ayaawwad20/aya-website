@@ -1,43 +1,54 @@
 body {
     margin: 0;
-    background-color: #f7f4ef;
-    color: #1d1d1d;
+    background-color: #f5f3ef;
+    color: #111111;
     font-family: 'Inter', sans-serif;
   }
   
-  main {
-    max-width: 850px;
+  .hero-container {
+    min-height: 100vh;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    gap: 80px;
+  
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 120px 40px;
+  
+    padding: 40px;
+    box-sizing: border-box;
   }
   
-  .hero {
-    margin-bottom: 120px;
+  .hero-text {
+    max-width: 650px;
   }
   
   h1 {
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 5rem;
-    font-weight: 500;
-    margin-bottom: 20px;
+    font-size: 6rem;
     line-height: 0.95;
+    margin-bottom: 25px;
+  
+    font-weight: 700;
+    letter-spacing: -3px;
   }
   
-  .subtitle {
-    font-size: 1.2rem;
-    max-width: 650px;
-    line-height: 1.8;
-    color: #555;
-  }
+  .intro {
+    font-size: 2rem;
+    line-height: 1.45;
   
-  .about {
-    border-top: 1px solid #d8d2ca;
-    padding-top: 50px;
-  }
+    color: #333333;
   
-  .about p {
-    font-size: 1.05rem;
-    line-height: 1.9;
-    margin-bottom: 30px;
     max-width: 700px;
+  }
+  
+  .hero-image img {
+    width: 220px;
+    height: 220px;
+  
+    object-fit: cover;
+    object-position: center 10%;
+  
+    border-radius: 50%;
   }
