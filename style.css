@@ -550,3 +550,21 @@ body {
       display: none;
     }
   }
+
+ /* PAGE LOAD ANIMATION */
+
+.page {
+    animation: pageFadeUp 0.9s ease both;
+  }
+  
+  @keyframes pageFadeUp {
+    from {
+      opacity: 0;
+      transform: translateY(18px);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
