@@ -270,7 +270,7 @@ body {
   }
   
   .skill-pill {
-    background: #111111;
+    background: #8C9379;
     color: #f5f3ef;
     padding: 6px 10px;
     border-radius: 10px;
@@ -296,7 +296,7 @@ body {
     margin-top: 36px;
     padding: 10px 18px;
   
-    background: hsl(13, 39%, 50%)  /*#2C5451*/;
+    background: #4D6A68  /*#2C5451*/;
     color: #f8f5f1;
   
     text-decoration: none;
@@ -582,7 +582,7 @@ body {
     width: fit-content;
     padding: 8px 12px;
     border-radius: 999px;
-    background: rgba(80, 45, 25, 0.78);
+    background:   rgba(80, 45, 25, 0.78);
     color: #f5f3ef;
     font-size: 0.76rem;
     font-weight: 700;
