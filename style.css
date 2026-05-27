@@ -296,7 +296,7 @@ body {
     margin-top: 36px;
     padding: 10px 18px;
   
-    background: #2C5451;
+    background: hsl(13, 39%, 50%)  /*#2C5451*/;
     color: #f8f5f1;
   
     text-decoration: none;
@@ -314,7 +314,7 @@ body {
   .research-cta a:hover {
     transform: translateY(-2px);
     opacity: 0.92;
-    box-shadow: 0 10px 22px rgba(44, 84, 81, 0.18);
+    box-shadow: 0 10px 22px rgba(159, 75, 52, 0.18);
   }
   
   /* =========================================================
