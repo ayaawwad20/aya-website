@@ -289,25 +289,21 @@ body {
    RESEARCH CTA
 ========================================================= */
 
-.research-cta {
-    margin-top: 28px;
-  }
-  
-  .research-cta a {
+.research-cta a {
     display: inline-flex;
     align-items: center;
     gap: 8px;
+    margin-top: 36px;
+    padding: 10px 18px;
   
-    padding: 12px 18px;
-  
-    background: #7d5b49;
+    background: #2C5451;
     color: #f8f5f1;
   
     text-decoration: none;
     font-size: 0.88rem;
     font-weight: 600;
   
-    border-radius: 999px;
+    border-radius: 14px;
   
     transition:
       transform 0.18s ease,
@@ -318,7 +314,7 @@ body {
   .research-cta a:hover {
     transform: translateY(-2px);
     opacity: 0.92;
-    box-shadow: 0 10px 22px rgba(125, 91, 73, 0.18);
+    box-shadow: 0 10px 22px rgba(44, 84, 81, 0.18);
   }
   
   /* =========================================================
