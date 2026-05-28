@@ -12,7 +12,7 @@ body {
   .page {
     max-width: 760px;
     margin: 0 auto;
-    padding: 105px 40px 130px 40px;
+    padding: 105px 40px 30px 40px;
     box-sizing: border-box;
     animation: pageFadeUp 0.9s ease both;
   }
@@ -32,7 +32,6 @@ body {
   
   /* =========================================================
      INDEX HERO
-     (UNCHANGED — your homepage styling)
   ========================================================= */
   
   .hero-container {
@@ -468,7 +467,7 @@ body {
   
   .page.research-landing-page {
     max-width: 760px;
-    padding: 105px 40px 130px 40px;
+    padding: 105px 40px 30px 40px;
   }
   
   .research-landing-page .research-hero {
@@ -857,4 +856,76 @@ body {
       grid-template-columns: 1fr;
     }
   
+  }
+/* =========================================================
+   BOTTOM LINKS
+========================================================= */
+
+.bottom-links {
+    margin-top: 28px;
+    padding-top: 24px;
+    padding-bottom: 42px;
+  
+    border-top: 1px solid rgba(0, 0, 0, 0.10);
+  
+    max-width: 760px;
+    margin-left: auto;
+    margin-right: auto;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+  
+    font-size: 0.95rem;
+    color: #6b6b6b;
+  }
+  
+  .bottom-links a {
+    color: inherit;
+    text-decoration: none;
+    transition: opacity 0.18s ease;
+  }
+  
+  .bottom-links a:hover {
+    opacity: 0.6;
+  }
+  
+  .bottom-links span {
+    opacity: 0.35;
+  }
+
+/* =========================================================
+   RESEARCH PAGE FOOTER
+========================================================= */
+
+.research-footer {
+    margin-top: 20px;
+  
+    padding-top: 22px;
+    padding-bottom: 10px;
+  
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+  
+    max-width: 760px;
+    margin-left: auto;
+    margin-right: auto;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .research-footer a {
+    color: #6f6f6f;
+    text-decoration: none;
+  
+    font-size: 0.92rem;
+    font-weight: 500;
+  
+    transition: opacity 0.18s ease;
+  }
+  
+  .research-footer a:hover {
+    opacity: 0.6;
   }
